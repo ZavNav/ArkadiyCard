@@ -11,6 +11,9 @@
 		E13F499E27E215DB00C1FDB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13F499D27E215DB00C1FDB2 /* ContentView.swift */; };
 		E13F49A027E215DB00C1FDB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E13F499F27E215DB00C1FDB2 /* Assets.xcassets */; };
 		E13F49A327E215DB00C1FDB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E13F49A227E215DB00C1FDB2 /* Preview Assets.xcassets */; };
+		E13F49AB27E217F300C1FDB2 /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E13F49AA27E217F300C1FDB2 /* BebasNeue-Regular.ttf */; };
+		E13F49AD27E2180300C1FDB2 /* Inspiration-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E13F49AC27E2180300C1FDB2 /* Inspiration-Regular.ttf */; };
+		E1A5B59527E220C7008491DB /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5B59427E220C7008491DB /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,10 @@
 		E13F499D27E215DB00C1FDB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E13F499F27E215DB00C1FDB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E13F49A227E215DB00C1FDB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E13F49AA27E217F300C1FDB2 /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
+		E13F49AC27E2180300C1FDB2 /* Inspiration-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inspiration-Regular.ttf"; sourceTree = "<group>"; };
+		E1A5B59327E21941008491DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E1A5B59427E220C7008491DB /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +58,13 @@
 		E13F499A27E215DB00C1FDB2 /* ArkadiyCard */ = {
 			isa = PBXGroup;
 			children = (
+				E1A5B59327E21941008491DB /* Info.plist */,
+				E13F49A927E217D200C1FDB2 /* Fonts */,
 				E13F499B27E215DB00C1FDB2 /* ArkadiyCardApp.swift */,
 				E13F499D27E215DB00C1FDB2 /* ContentView.swift */,
 				E13F499F27E215DB00C1FDB2 /* Assets.xcassets */,
 				E13F49A127E215DB00C1FDB2 /* Preview Content */,
+				E1A5B59427E220C7008491DB /* InfoView.swift */,
 			);
 			path = ArkadiyCard;
 			sourceTree = "<group>";
@@ -65,6 +75,15 @@
 				E13F49A227E215DB00C1FDB2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E13F49A927E217D200C1FDB2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E13F49AA27E217F300C1FDB2 /* BebasNeue-Regular.ttf */,
+				E13F49AC27E2180300C1FDB2 /* Inspiration-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +146,8 @@
 			files = (
 				E13F49A327E215DB00C1FDB2 /* Preview Assets.xcassets in Resources */,
 				E13F49A027E215DB00C1FDB2 /* Assets.xcassets in Resources */,
+				E13F49AD27E2180300C1FDB2 /* Inspiration-Regular.ttf in Resources */,
+				E13F49AB27E217F300C1FDB2 /* BebasNeue-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E13F499E27E215DB00C1FDB2 /* ContentView.swift in Sources */,
+				E1A5B59527E220C7008491DB /* InfoView.swift in Sources */,
 				E13F499C27E215DB00C1FDB2 /* ArkadiyCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +292,7 @@
 				DEVELOPMENT_TEAM = 55G986TBD8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArkadiyCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +322,7 @@
 				DEVELOPMENT_TEAM = 55G986TBD8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArkadiyCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
